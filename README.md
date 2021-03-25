@@ -8,28 +8,28 @@ branch.
 
 This repo requires a specific build of .NET 6:
 
-* Windows: [dotnet-sdk-6.0.100-preview.2.21155.3-win-x64.exe](https://download.visualstudio.microsoft.com/download/pr/2290b039-85d8-4d95-85f7-edbd9fcd118d/a64bef89625bc61db2a6832878610214/dotnet-sdk-6.0.100-preview.2.21155.3-win-x64.exe)
-* macOS: [dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg](https://download.visualstudio.microsoft.com/download/pr/5e10dc75-294e-49f4-972e-218ae86191a3/e46d3533c30c8a864252a334820263a9/dotnet-sdk-6.0.100-preview.2.21155.3-osx-x64.pkg)
+* Windows: [dotnet-sdk-6.0.100-preview.3.21168.18-win-x64.exe](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-preview.3.21168.18/dotnet-sdk-6.0.100-preview.3.21168.18-win-x64.exe)
+* macOS: [dotnet-sdk-6.0.100-preview.3.21168.18-osx-x64.pkg](https://dotnetcli.azureedge.net/dotnet/Sdk/6.0.100-preview.3.21168.18/dotnet-sdk-6.0.100-preview.3.21168.18-osx-x64.pkg)
 
 You will also need to install builds of the iOS and Android workloads:
 
 Android:
 
-* Windows: [Microsoft.NET.Workload.Android.11.0.200.148.msi](https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4534967/main/f4d8fe238b15eadfc7842749bf13e5fca3e2f2d2/Microsoft.NET.Workload.Android.11.0.200.148.msi)
-* macOS: [Microsoft.NET.Workload.Android-11.0.200.148.pkg](https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4534967/main/f4d8fe238b15eadfc7842749bf13e5fca3e2f2d2/Microsoft.NET.Workload.Android-11.0.200-ci.f4d8fe238b15eadfc7842749bf13e5fca3e2f2d2.148.pkg)
+* Windows: [Microsoft.NET.Workload.Android.11.0.200.176.msi](https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4591050/main/4e37293cab6eb3d96cdcac82a249675e3828fa88/Microsoft.NET.Workload.Android.11.0.200.176.msi)
+* macOS: [Microsoft.NET.Workload.Android-11.0.200.176.pkg](https://dl.internalx.com/vsts-devdiv/Xamarin.Android/public/net6/4591050/main/4e37293cab6eb3d96cdcac82a249675e3828fa88/Microsoft.NET.Workload.Android-11.0.200-ci.4e37293cab6eb3d96cdcac82a249675e3828fa88.176.pkg)
 
 iOS:
 
-* Windows: [Microsoft.NET.Workload.iOS.14.4.100-ci.main.1192.msi](https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/Microsoft.NET.Workload.iOS.14.4.100-ci.main.1192.msi)
-* macOS: [Microsoft.iOS.Bundle.14.4.100-ci.main.1192.pkg](https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.iOS.Bundle.14.4.100-ci.main.1192.pkg)
+* Windows: [Microsoft.NET.Workload.iOS.14.4.100-ci.main.1271.msi](https://bosstoragemirror.azureedge.net/wrench/main/c8b6bc6c85a0067387ee298ef5e7d55992be5f0a/4590608/package/Microsoft.NET.Workload.iOS.14.4.100-ci.main.1271.msi)
+* macOS: [Microsoft.iOS.Bundle.14.4.100-ci.main.1271.pkg](https://bosstoragemirror.azureedge.net/wrench/main/c8b6bc6c85a0067387ee298ef5e7d55992be5f0a/4590608/package/notarized/Microsoft.iOS.Bundle.14.4.100-ci.main.1271.pkg)
 
 Mac (Cocoa/AppKit):
 
-* macOS: [Microsoft.macOS.Bundle.11.1.100-ci.main.1245.pkg](https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.macOS.Bundle.11.1.100-ci.main.1245.pkg)
+* macOS: [Microsoft.macOS.Bundle.11.1.100-ci.main.1324.pkg](https://bosstoragemirror.azureedge.net/wrench/main/c8b6bc6c85a0067387ee298ef5e7d55992be5f0a/4590608/package/notarized/Microsoft.macOS.Bundle.11.1.100-ci.main.1324.pkg)
 
 Mac Catalyst (UIKit):
 
-* macOS: [Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.337.pkg](https://bosstoragemirror.azureedge.net/wrench/main/98c8649d0c7d1e3c4c8d8d09e022befa853fb1e7/4541181/package/notarized/Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.337.pkg)
+* macOS: [Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.416.pkg](https://bosstoragemirror.azureedge.net/wrench/main/c8b6bc6c85a0067387ee298ef5e7d55992be5f0a/4590608/package/notarized/Microsoft.MacCatalyst.Bundle.14.3.100-ci.main.416.pkg)
 
 _NOTE: newer builds of .NET *may* work, but your mileage may vary.
 The workload installers enable a feature flag file via
